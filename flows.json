@@ -1,0 +1,48 @@
+[
+    {
+        "id": "363e4e77d0eae070",
+        "type": "ui_text_input",
+        "z": "9d841e0c74fa69f7",
+        "name": "",
+        "label": "Modifica corpo",
+        "tooltip": "",
+        "group": "c47fe1997a16efcd",
+        "order": 0,
+        "width": "18",
+        "height": "9",
+        "passthru": true,
+        "mode": "text",
+        "delay": 300,
+        "topic": "topic",
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "msg",
+        "x": 100,
+        "y": 840,
+        "wires": [
+            [
+                "230d3a5ca9865bb2"
+            ]
+        ]
+    },
+    {
+        "id": "c47fe1997a16efcd",
+        "type": "ui_group",
+        "name": "Layout Inglese",
+        "tab": "5e5ffa5a2ec912aa",
+        "order": 3,
+        "disp": true,
+        "width": "18",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "5e5ffa5a2ec912aa",
+        "type": "ui_tab",
+        "name": "GreenFoam",
+        "icon": "dashboard",
+        "order": 4,
+        "disabled": false,
+        "hidden": false
+    }
+]
