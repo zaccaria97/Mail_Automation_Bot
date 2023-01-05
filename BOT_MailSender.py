@@ -67,7 +67,7 @@ def apri_browser_ed_effettua_login():
 
     # 1. Scrittura campi login
     element = WebDriverWait(driver, 10).until(EC.visibility_of_element_located((By.CSS_SELECTOR, "." + "input-wrap__input")))
-    ActionChains(driver).move_to_element(element).send_keys("sales02@quarrataforniture.it").send_keys(Keys.TAB).send_keys("SetRev6104").perform();
+    ActionChains(driver).move_to_element(element).send_keys("...email...").send_keys(Keys.TAB).send_keys("...password...").perform();
 
     # 2. Scrittura invio
     time.sleep(DELAY_SCRITTURA_EMAIL_E_INVIO)
